@@ -1,0 +1,34 @@
+export const ANIMATION_CONFIG = {
+  FLOATING_DURATION: 3000,
+  PULSE_DURATION: 2000,
+  RIPPLE_DURATION: 1000,
+  RIPPLE_SCALE: 3,
+  PULSE_SCALE: 1.1,
+  FLOATING_DISTANCE: -20,
+} as const;
+
+export const COLORS = {
+  HERO_GRADIENT: ['#667eea', '#764ba2', '#f093fb'],
+  MAIN_GRADIENT: ['rgba(0, 122, 255, 0.3)', 'rgba(255, 59, 48, 0.2)', 'rgba(52, 199, 89, 0.3)'],
+  RIPPLE: 'rgba(255, 255, 255, 0.3)',
+  RIPPLE_BORDER: 'rgba(255, 255, 255, 0.6)',
+  PLAYGROUND_BACKGROUND: 'rgba(0, 122, 255, 0.05)',
+  PRIMARY: '#007AFF',
+  DESTRUCTIVE: '#FF3B30',
+  SUCCESS: '#34C759',
+  WARNING: '#FF9500',
+} as const;
+
+export const LAYOUT = {
+  HERO_HEIGHT: 300,
+  PLAYGROUND_HEIGHT: 600,
+  MAIN_AREA_HEIGHT: 150,
+  PADDING: 20,
+  MAIN_PADDING: 30,
+  RIPPLE_SIZE: 100,
+  BORDER_RADIUS: {
+    SMALL: 16,
+    MEDIUM: 20,
+    LARGE: 25,
+  },
+} as const;
