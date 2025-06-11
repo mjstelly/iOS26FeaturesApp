@@ -1,0 +1,30 @@
+export const COLORS = {
+  HERO_GRADIENT: ['#667eea', '#764ba2', '#f093fb', '#f5576c'],
+  PRIMARY: '#007AFF',
+  SUCCESS: '#34C759',
+  DESTRUCTIVE: '#FF3B30',
+  WARNING: '#FF9500',
+  PURPLE: '#AF52DE',
+  PINK: '#FF2D92',
+} as const;
+
+export const LAYOUT = {
+  HERO_HEIGHT: 280,
+  SECTION_PADDING: 20,
+  CARD_BORDER_RADIUS: 16,
+  BUTTON_BORDER_RADIUS: 12,
+  INPUT_BORDER_RADIUS: 12,
+  ICON_CONTAINER_SIZE: 56,
+  FEATURE_CARD_WIDTH: '47%',
+} as const;
+
+export const TIMING = {
+  PROCESSING_DELAY: 2000,
+} as const;
+
+export const BLUR_INTENSITY = {
+  HERO: 30,
+  BUTTON: 80,
+  FEATURE_CARD: 70,
+  PRIVACY_CARD: 50,
+} as const;

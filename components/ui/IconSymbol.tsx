@@ -22,6 +22,14 @@ const MAPPING = {
   'sparkles': 'auto-awesome',
   'cube': 'view-in-ar',
   'paintbrush': 'brush',
+  'brain.head.profile': 'psychology',
+  'pencil.and.scribble': 'edit',
+  'photo.on.rectangle': 'image',
+  'doc.text.magnifyingglass': 'search',
+  'globe': 'language',
+  'waveform': 'graphic-eq',
+  'gear': 'settings',
+  'lock.shield': 'security',
 } as IconMapping;
 
 /**
