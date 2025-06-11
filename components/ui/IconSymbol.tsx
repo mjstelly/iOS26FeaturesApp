@@ -30,6 +30,13 @@ const MAPPING = {
   'waveform': 'graphic-eq',
   'gear': 'settings',
   'lock.shield': 'security',
+  'plus.magnifyingglass': 'search',
+  'phone.fill': 'phone',
+  'dial.high': 'tune',
+  'oval.fill': 'fiber-manual-record',
+  'camera.fill': 'camera-alt',
+  'cpu.fill': 'memory',
+  'apple.logo': 'apple',
 } as IconMapping;
 
 /**
