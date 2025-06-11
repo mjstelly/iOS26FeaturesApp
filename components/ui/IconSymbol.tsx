@@ -37,6 +37,20 @@ const MAPPING = {
   'camera.fill': 'camera-alt',
   'cpu.fill': 'memory',
   'apple.logo': 'apple',
+  'eye.fill': 'visibility',
+  'ellipsis': 'more-horiz',
+  'text.bubble.fill': 'chat-bubble',
+  'viewfinder': 'crop-free',
+  'wand.and.stars': 'auto-fix-high',
+  'doc.text.viewfinder': 'document-scanner',
+  'fork.knife': 'restaurant',
+  'doc.text': 'description',
+  'magnifyingglass': 'search',
+  'character.book.closed': 'translate',
+  'apps.iphone': 'apps',
+  'photo.fill': 'photo',
+  'safari.fill': 'language',
+  'message.fill': 'message',
 } as IconMapping;
 
 /**
